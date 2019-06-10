@@ -1,6 +1,6 @@
 [Project]
-FileName=PrjFuncionesValoresPorReferencia.dev
-Name=PrjFuncionesValoresPorReferencia
+FileName=Prj Recursividad_1.dev
+Name=Prj Recursividad_1
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=FuncionesValoresporReferencia.cpp
+FileName=main.cpp
 CompileCpp=1
 Folder=
 Compile=1

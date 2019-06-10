@@ -25,6 +25,7 @@ int main()
 
 {
 	setlocale(LC_ALL,"");
+	
 	float x;
 	cout << "Llamada a la funcion Saludar:" << endl;
 	Saludar();
