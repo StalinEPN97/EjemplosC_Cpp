@@ -6,8 +6,9 @@ int main()
 {
 	string cedula = "1726062720";//hardcode
 	//string cedula = "1102182654";//hardcode
-	cout<< "Cedula " <<cedula <<endl;
+	cout<< "Ingrese la Cedula "<<cedula <<endl;
 	//int matriz [3][9]={{1,2,3,4,5,6,7,8,9},{10,11,12,13,14,15,16,17,18},{19,20,21,22,23,24,25,26,27}};
+	//cin.getline(cedula,10,"\n");
 	int matriz [3][9]={0};
 	int filas=3, columnas=9, sumatotal=0;
 	for (int c= 0;c<columnas;c++)
@@ -20,7 +21,7 @@ int main()
 		matriz[2][c] = matriz[0][c]*matriz[1][c];
 		if(matriz[2][c] >=10) // es mayor o igual
 			matriz[2][c] -=9;
-		//matriz[2][c] = matriz[0][c]*matriz[1][c]>10?matriz[0][c]*matriz[1][c] -9:matriz[0][c]*matriz[1][c]);
+		//matriz[2][c] = (matriz[0][c]*matriz[1][c]>=10?matriz[0][c]*matriz[1][c] -9:matriz[0][c]*matriz[1][c]);
 		sumatotal += matriz[2][c];
 	}
 		
