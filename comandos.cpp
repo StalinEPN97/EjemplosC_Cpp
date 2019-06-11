@@ -18,7 +18,7 @@ int main (int argc, char** argv)
 		cout <<endl;
 		string cedula = argv [1];
 		int* digitos = new int [ cedula.size()+1 ];
-		cout << "cedula " << cedula << endl;
+		cout << "Cedula:  " << cedula << endl;
 		int a= cedula.size();
 		if(a ==10)
 		{
