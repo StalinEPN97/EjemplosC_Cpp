@@ -2,7 +2,7 @@
 #include <string.h>
 #include<stdlib.h>
 #include<conio.h>
-#include <cstdlib>
+//#include <cstdlib>
 using namespace std;
 
 int main (int argc, char** argv)
