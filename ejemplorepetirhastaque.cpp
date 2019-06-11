@@ -6,7 +6,6 @@ using namespace std;
 
 int main() {
 	int op;
-	
 	setlocale(LC_ALL, "");
 	do {
 		

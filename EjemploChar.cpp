@@ -5,7 +5,7 @@
 #define ESPACIO  ' '
 using namespace std;
 
-int main3()
+int main()
 {
 	int contador=0;
 	//string cadena ="Escuela Politecnica Nacional"; //3 PALABRAS
