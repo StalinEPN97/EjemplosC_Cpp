@@ -7,7 +7,7 @@ struct Cliente
 	char nombre[30];
 	int unidad;
 	double precio;
-	char estado;	
+		
 };
 //Paso de parametros por valor
 void LeerDatosCliente(Cliente miCliente[])
